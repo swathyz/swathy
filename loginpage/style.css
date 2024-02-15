@@ -1,0 +1,366 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: block;
+  height: 750px;
+   width: 100%;
+   background: #fff;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   object-fit: cover;
+    
+}
+.nav_bar{
+    text-align: right;
+    
+   
+}
+.navigation{
+  /* background-image:linear-gradient(#351640,#341945); */
+  background-image: url('images/image 1st.png');
+  padding-top: .7%;
+  padding-bottom: .7%;
+  padding-right: 1%;
+  height: 8%;
+  
+  top: 0px;
+}
+  .container{
+    background: red;
+  }
+  
+
+.buttondiv{
+    width: 50%;
+    float: right;
+}
+.logo{
+    width: 50%;
+    float: left;
+    padding-left: 0%;
+}
+.logos{
+    margin-top: 1.6%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    margin-left: 11%;
+}
+.button{
+   margin-top: 0.8%;
+   margin-right: 1%;
+ width: 225px;
+ height: 35px;
+ float: right;
+    background-image: linear-gradient(#FF91A5,#FF95A5);
+    border: none;
+    border-radius: 4px;
+   
+    color: aliceblue;
+    font-weight: bold;
+}
+.button:hover{
+    margin-right: 1%;
+    margin-top: 0.8%;
+    transform: scale(1.03);
+    background-image: linear-gradient(to right, #f64d93 , #fe778b);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+.container{
+    background: #fdfdfd;
+    height: 140px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.home{
+    margin-top: 3%;
+    background: linear-gradient(to top,rgb(254, 158, 181),#f2ced7);
+    color: rgb(199, 42, 84);
+    border-radius: 10px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+.home:hover{
+    margin-top: 3%;
+    transform: scale(1.1);
+    
+    background: linear-gradient(to top,rgb(254, 100, 136),#e15a7c);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+.guest{
+    margin-top: 3%;
+    margin-left: 3%;
+    background: linear-gradient(to top,rgb(254, 158, 181),#f2ced7);
+    color: rgb(199, 42, 84);
+    border-radius: 10px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+.guest:hover{
+    margin-top: 3%;
+    transform: scale(1.1);
+    
+    background: linear-gradient(to top,rgb(254, 100, 136),#e15a7c);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+.budget{
+    margin-top: 3%;
+    margin-left: 3%;
+    background: linear-gradient(to top,rgb(254, 158, 181),#f2ced7);
+    color: rgb(199, 42, 84);
+    border-radius: 10px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+.budget:hover{
+    margin-top: 3%;
+    transform: scale(1.1);
+    
+    background: linear-gradient(to top,rgb(254, 100, 136),#e15a7c);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+.checklist{
+    margin-top: 3%;
+    margin-left: 3%;
+    background: linear-gradient(to top,rgb(254, 158, 181),#f2ced7);
+    color: rgb(199, 42, 84);
+    border-radius: 10px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+.checklist:hover{
+    margin-top: 3%;
+    transform: scale(1.1);
+    
+    background: linear-gradient(to top,rgb(254, 100, 136),#e15a7c);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+.shortlist{
+    margin-left: 3%;
+    margin-top: 3%;
+    
+    background: linear-gradient(to top,rgb(254, 158, 181),#f2ced7);
+    color:rgb(199, 42, 84);
+    border-radius: 10px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+.shortlist:hover{
+    margin-top: 3%;
+    transform: scale(1.1);
+    
+    background: linear-gradient(to top,rgb(254, 100, 136),#e15a7c);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+.advices{
+   
+float: right;
+margin-top: 3%;
+    background: linear-gradient(to top,rgb(254, 158, 181),#f2ced7);
+    color: rgb(199, 42, 84);
+    border-radius: 10px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+   
+    
+    
+}
+.advices:hover{
+    transform: scale(1);
+    margin-top: 3%;
+    background: linear-gradient(to top,rgb(254, 100, 136),#e15a7c);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    height: 90px;
+    width: 180px;
+    font-weight: bolder;
+}
+
+
+.loginsection{
+   
+    height: 600px;
+    width: 100%;
+    
+    background-image: url('images/second section.png');
+    width: 100%;
+    position: relative;
+}
+
+.logsec{
+    margin-left: 7%;
+    background-size: cover;
+   
+    background-image: url('images/Rectangle 28.png');
+   height: 430px;
+   width: 58%;
+   position: absolute;
+   
+   left: 0.5%;
+   top: 5%;
+   
+
+}
+.backlog{
+    background-image: url('images/photo_2024-02-13_23-03-26.jpg');
+   background-size: cover;
+   position: relative;
+   padding-top: 3%;
+    height: 410px;
+    width: 100%;
+    
+    
+   
+  
+    
+    
+    
+}
+.text{
+    
+    top: 3%;
+    left: 3%;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "poppins";
+     padding-left: 3%;
+    padding-top: 3%;
+    
+    
+   
+}
+.input_container
+{
+    
+}
+.textbox{
+    margin-left: 3%;
+    margin-top: 3%;
+    background-color: rgb(254, 253, 253);
+    padding-left: 18px;
+    width: 85.5%;
+    height: 30px;
+   
+    
+}
+.password{
+    margin-left: 3%;
+    margin-top: 3%;
+    background-color: rgb(254, 253, 253);
+    padding-left: 18px;
+    width: 85.5%;
+    height: 30px;
+
+}
+.submit{
+    margin-left: 65%;
+    margin-top: 3%;
+    border:0;
+    border-radius: 3px;
+    
+    width: 23.5%;
+    height: 30px;
+    
+    background-image:linear-gradient(to top,rgb(218, 124, 143),#eeb2b2) ;
+    font-weight: bold;
+   
+  
+   
+
+}
+.submit:hover{
+    margin-left: 65%;
+    margin-top: 3%;
+    border:0;
+    color:#fff;
+    background:#e15a7c;
+    transform: scale(1.1);
+    
+    
+    
+  
+    
+    
+    width: 23.5%;
+    height: 30px;
+   
+    
+      
+}
+
+.forgotpass{
+    margin-left: 75%;
+    margin-top: 3%;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    
+
+}
+.signup{
+   
+    color:#fb2157;
+    text-decoration: none;
+   
+    
+    
+}
+.donthaveawedeaseaccount{
+    margin-top: 40px;
+    padding-left: 3%
+    
+    
+}
