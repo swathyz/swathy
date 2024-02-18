@@ -1,0 +1,53 @@
+.Insightful-inspiration{
+   
+
+    background-image: url('swathy/HOME PAGE (1ST PAGE)/newone.png');
+    width: 100%;
+    height: 717px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  
+
+    
+
+  }
+  .Insightful-inspiration h2{
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 10%;
+    padding-left: 10%;
+    ;
+  }
+  .Insightful-inspiration p{
+    padding-top: 2%;
+    padding-left: 10%;
+    
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.679);
+    padding-right: 30%;
+
+  }
+  
+  .Insightful-inspiration button{
+    width: 23%;
+    height: 5.5%;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: rgba(255, 255, 255,90%);
+    background-image: linear-gradient(to right, #FD61A2 , #FF95A5);
+    transition: transform 0.3s;
+    border: none;
+
+  }
+
+  .Insightful-inspiration button:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, #f64d93 , #fe778b);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+  }
+

@@ -1,0 +1,166 @@
+.reviews-and-insightful-inspiration{
+    background-color: rgba(160, 33, 169, 0.186); 
+    
+    width: 100%;
+    height: 800px;
+    margin: 0px;
+    display: flex;
+    align-content: space-between;
+    
+
+
+  }
+  
+
+  .heading-of-review{
+   
+    
+    letter-spacing: 1px;
+    line-height: 110%;
+    font-weight: bold;
+    font-size: 50px;
+   
+    text-align: left;
+    padding-top: 15%;
+   
+   
+      color: rgb(253,96,162);
+   
+  }
+  .padding-for-this-section{
+    padding-left: 8%;
+
+  }
+  .content-of-insightful-inspiration{
+    padding-top: 2%;
+    font-size: 28px;
+    font-weight: normal;
+  }
+  .breaker1{
+   
+            top: 20px;
+            border: none;
+            height: 5px;
+            background:rgb(253,96,162);
+            margin-left: 8%;
+            width: 580px;
+            margin-top: 20px;
+  }
+  .topics{
+    padding-top: 2.5%;
+    font-size: 18px;
+    
+  }
+  .content-on-left{
+    width: 50%;
+  }
+
+  .pic_1{
+   
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin-top: 8%;
+  margin-left: 15%;
+
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  color: rgb(255, 228, 228);
+  
+    
+    background-image: url('swathy/HOME PAGE (1ST PAGE)/pexels-leeloo-the-first-5379877.jpg');
+  }
+  .pictures-3rd-section:hover{
+    cursor: pointer;
+    font-size: 22px;
+    
+    /* scale: 1.1; */
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    
+
+  }
+  .pic2{
+    background-image: url('swathy/HOME PAGE (1ST PAGE)/pexels-emma-bauso-2253870.jpg');
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin-left: 4%;
+  margin-top: 22%;
+
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  color: rgb(255, 228, 228);
+
+
+  }
+  .row1{
+    display: flex;
+    
+
+  }
+  .pic3{
+    background-image: url('swathy/HOME PAGE (1ST PAGE)/pexels-engin-akyurt-9294072.jpg');
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin-left: 4%;
+  margin-top: 4%;
+
+  display: flex;
+  align-items: flex-end;
+  padding-left: 200px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  color: rgb(255, 228, 228);
+  }
+  .pic4{
+    
+    
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+
+  margin-left: 4%;
+
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  color: rgb(255, 228, 228);
+  margin-top: 4%;
+  
+    
+    background-image: url('swathy/HOME PAGE (1ST PAGE)/pexels-wendel-moretti-1730877.jpg');
+
+  }
+  .row2{
+    display: flex;
+  }
+.picture-in-third-section{
+    margin-right: 5%;
+}
