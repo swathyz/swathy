@@ -500,10 +500,35 @@ body{
   padding-bottom: 10px;
   font-weight: bold;
   color: rgb(255, 228, 228);
+
+
+  animation: wobble 4s infinite;
+  
   
     
     background-image: url('pexels-leeloo-the-first-5379877.jpg');
   }
+
+
+
+  @keyframes wobble{
+    0% {
+      -webkit-transform: rotate(-1deg) translate(-5px, -5px);
+      transform: rotate(-1deg) translate(-5px, -5px);
+  }
+  50% {
+      -webkit-transform: rotate(1deg) translate(5px, 5px);
+      transform: rotate(1deg) translate(5px, 5px);
+  }
+  100% {
+      -webkit-transform: rotate(-1deg) translate(-5px, -5px);
+      transform: rotate(-1deg) translate(-5px, -5px);
+  }
+    
+  }
+  
+
+
   .pictures-3rd-section:hover{
     cursor: pointer;
     font-size: 22px;
@@ -512,6 +537,8 @@ body{
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
+
+    
     
 
   }
@@ -533,6 +560,7 @@ body{
   padding-bottom: 10px;
   font-weight: bold;
   color: rgb(255, 228, 228);
+  animation: wobble 4s infinite;
 
 
   }
@@ -559,6 +587,7 @@ body{
   padding-bottom: 10px;
   font-weight: bolder;
   color: rgb(255, 228, 228);
+  animation: wobble 4s infinite;
 
   }
   .pic4{
@@ -579,14 +608,20 @@ body{
   padding-bottom: 10px;
   font-weight: bold;
   color: rgb(255, 228, 228);
+  animation: wobble 4s infinite;
   
     
     background-image: url('pexels-wendel-moretti-1730877.jpg');
+   
 
   }
+
+
   .row2{
     display: flex;
   }
+
+ 
 
 
 
@@ -646,6 +681,64 @@ body{
     cursor: pointer;
 
   }
+  .background{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(160, 33, 169, 0.186);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .foreground{
+    width: 97%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.218);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    
+  }
+
+  .row1-in-foreground{
+    margin-left: 15%;
+    
+  }
+
+
+
+  
+
+  .row3-in-foreground{
+    margin-right: 15%;
+
+  }
+
+  .foreground h1{
+    color: #111111;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+
+
+  .foreground h5{
+    color: #1111117f;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+
+  }
+
+  .foreground h5:hover{
+    color: rgba(0, 148, 255, 0.6);
+    cursor: pointer;
+  }
+   
+ 
 
 
 
