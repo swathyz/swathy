@@ -78,6 +78,19 @@ body{
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
+
+.text{
+  float: left;
+  color: rgba(255, 255, 255, 0.747);
+  padding-left: 1.5%;
+  font-size: 25px;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 3px;
+  
+}
+
 .front_page_button{
     background-image: linear-gradient(#FF91A5,#FF95A5);
     border: none;
@@ -113,7 +126,10 @@ body{
   font-size: 4rem;
   font-style: italic;
   color: #ffffff6a;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
   text-align: center;
 }
 .plan_your_wedding_button{
@@ -169,8 +185,11 @@ body{
     padding-top: 5.5rem;
     font-size: 3rem;
     color: rgba(0, 0, 0,80%);
-    font-family: 'Permanent Marker', cursive; 
-
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 10px;
 }
 
 .venue_button{
@@ -404,13 +423,13 @@ body{
    
   }
 
-  /* ...............................review section............................... */
+  /* ...............................Wedding Ideas and Expert Advice............................... */
 
   .reviews-and-insightful-inspiration{
-    background-color: rgba(160, 33, 169, 0.186); ;
+    background-color: rgba(160, 33, 169, 0.186); 
     
     width: 100%;
-    height: 640px;
+    height: 700px;
     margin: 0px;
     display: flex;
     align-content: space-between;
@@ -472,7 +491,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px;
-  margin-top: 15%;
+  margin-top: 8%;
   margin-left: 15%;
 
   display: flex;
@@ -487,6 +506,13 @@ body{
   }
   .pictures-3rd-section:hover{
     cursor: pointer;
+    font-size: 22px;
+    
+    /* scale: 1.1; */
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    
 
   }
   .pic2{
@@ -499,7 +525,7 @@ body{
   background-size: cover;
   border-radius: 15px;
   margin-left: 4%;
-  margin-top: 23%;
+  margin-top: 22%;
 
   display: flex;
   align-items: flex-end;
@@ -515,3 +541,111 @@ body{
     
 
   }
+  .pic3{
+    background-image: url('pexels-engin-akyurt-9294072.jpg');
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin-left: 4%;
+  margin-top: 4%;
+
+  display: flex;
+  align-items: flex-end;
+  padding-left: 200px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  color: rgb(255, 228, 228);
+
+  }
+  .pic4{
+    
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+
+  margin-left: 4%;
+
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: rgb(255, 228, 228);
+  
+    
+    background-image: url('pexels-wendel-moretti-1730877.jpg');
+
+  }
+  .row2{
+    display: flex;
+  }
+
+
+
+
+/* 
+  ..........................Insightful inspiration.............................. */
+
+  .Insightful-inspiration{
+   
+
+    background-image: url('newone.png');
+    width: 100%;
+    height: 717px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  
+
+    
+
+  }
+  .Insightful-inspiration h2{
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 10%;
+    padding-left: 10%;
+    ;
+  }
+  .Insightful-inspiration p{
+    padding-top: 2%;
+    padding-left: 10%;
+    
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.679);
+    padding-right: 30%;
+
+  }
+  
+  .Insightful-inspiration button{
+    width: 23%;
+    height: 5.5%;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    margin-left: 10%;
+    margin-top: 2%;
+    color: rgba(255, 255, 255,90%);
+    background-image: linear-gradient(to right, #FD61A2 , #FF95A5);
+    transition: transform 0.3s;
+    border: none;
+
+  }
+
+  .Insightful-inspiration button:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(to right, #f64d93 , #fe778b);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+  }
+
+
+
