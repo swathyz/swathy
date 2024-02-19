@@ -37,6 +37,7 @@ body {
     display: flex;
     margin-top: 20px;
     font-size: 18px;
+    color: rgba(0, 0, 0, 0.501);
   }
   
   form input {
@@ -46,11 +47,12 @@ body {
     border: 1px solid gray;
     border-radius: 6px;
     outline: none;
+    
   }
   input[type="button"] {
     width: 320px;
     height: 35px;
-    margin-top: 50px;
+    margin-top: 35px;
     border: none;
     background-image: linear-gradient(to right, #FD61A2 , #FF95A5);
     color: rgba(255, 255, 255,90%);
@@ -77,8 +79,16 @@ body {
     text-align: center;
     color: white;
     font-size: 15px;
-    margin-top: -10px;
+    margin-top: -50px;
+
   }
   .para-2 a {
     color: #f64d93;
+
+  }
+  label{
+    
+    color: rgba(0, 0, 0, 0.501);
+   
+
   }
