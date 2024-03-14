@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+   
+    height: 130vh;
+    background-color: #fbfafa;
+    color: #fff;
+}
+
+.create-vendor-container {
+  background-color: rgb(0, 0, 0);
+
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 70%;
+    max-width: 1100px;
+    animation: fadeIn 1s;
+   
+   
+    
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #fd6051;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+}
+
+header p {
+    color: #ccc;
+    margin-top: 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #ffcd03;
+    margin-top: 30px;
+    font-size: 1.5em;
+    margin-bottom: 45px;
+}
+
+.label-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-column label {
+    margin-bottom: 5px;
+}
+
+.input-group {
+  width: 70%;
+    gap: 10px;
+   
+
+}
+
+
+input, select, textarea, button {
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #777;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #444;
+    color: #fff;
+  
+}
+
+.image-upload {
+    background-color: #555;
+}
+
+.animated-button {
+    background-color: #ff6161;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 15px;
+    
+}
+
+.animated-button:hover {
+    background-color: #ff524a;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #777;
+}
+
+
+
+
+
+.agree-statement {
+   
+    margin-top: 15px;
+   float: left;
+   
+   
+}
+
+.box {
+   
+    height: 16px;
+   margin-top: -18px;
+    
+   margin-left: 295px;
+   
+  
+}
+
+.agree-statement label {
+   
+    color: #ccc;
+  
+    
+  
+ float: left;
+  
+}

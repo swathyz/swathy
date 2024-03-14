@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="create.css">
+    <title>Create Your Service - WedEase</title>
+</head>
+<body>
+    <div class="create-vendor-container">
+        <header>
+            <h1>Welcome to WedEase</h1>
+            <p>Where Dreams Become Reality</p>
+        </header>
+
+        <h2>CREATE YOUR SERVICE</h2>
+        <form action="#" method="post">
+           
+            <label for="servicesProvided">Services Provided:</label>
+            <input type="text" id="servicesProvided" name="servicesProvided" required><br>
+
+            <label for="serviceImage">Service Image Upload:</label>
+            <input type="file" id="serviceImage" name="serviceImage" accept="image/*" class="image-upload"><br>
+
+            <label for="serviceCategory">Service Category:</label>
+            <select id="serviceCategory" name="serviceCategory" required>
+                <option value="photography">Photography</option>
+                <option value="catering">Catering</option>
+                <option value="planning & Decor">planning & Decor </option>
+                <option value="Venue">Venue</option>
+                <option value="Makeup">Makeup</option>
+                <option value="Mehandi">Mehandi</option>
+                <option value="Invites and Gifts">Invites and Gifts</option>
+                <option value="catering">Program</option>
+                <option value="catering">Rental Service</option>
+                <option value="catering">Jewellery & Accesoeries</option>
+                <!-- Add more options as needed -->
+            </select><br>
+
+            <label for="price">Price of Service:</label>
+            <input type="number" id="price" name="price" required><br>
+
+            <label for="serviceDescription">Description of Services:</label>
+            <textarea id="serviceDescription" name="serviceDescription" rows="5" required></textarea><br>
+
+            <div class="agree-statement">
+              
+                <label for="agree">I agree to all the terms and conditions</label>
+                
+            </div>
+            <input type="checkbox" id="agree" name="agree"class="box" required>
+
+            <button type="submit" class="animated-button">Create Service post</button>
+        </form>
+
+        <footer>
+            <blockquote>
+                "Love is an endless mystery, for it has nothing else to explain it." - Rabindranath Tagore
+            </blockquote>
+        </footer>
+    </div>
+</body>
+</html>

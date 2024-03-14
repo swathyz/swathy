@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Venue - WEDEASE</title>
+  <link rel="stylesheet" href="html.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>WEDEASE</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="venue-order">
+    <div class="container">
+      <h2>Book Your Venue</h2>
+      <div class="venue-image">
+        <img src="images/ceremonial-chairs-curtain-flowers.jpg" alt="Sample Venue Image">
+      </div>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+
+        <label for="event-date">Event Date:</label>
+        <input type="date" id="event-date" name="event-date" required>
+
+        <label for="event-time">Event Time:</label>
+        <input type="time" id="event-time" name="event-time" required>
+
+        <label for="event-type">Event Type:</label>
+        <select id="event-type" name="event-type" required>
+          <option value="Wedding">Wedding</option>
+          <option value="Haldi">Haldi</option>
+          <option value="Pre Wedding">Pre Wedding</option>
+          <option value="Reception">Reception</option>
+          
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" required>
+
+        <label for="venue-preferences">Venue Preferences:</label>
+        <textarea id="venue-preferences" name="venue-preferences"></textarea>
+
+        <label for="services">Additional Services:</label>
+        <textarea id="services" name="services"></textarea>
+
+        <label for="budget">Estimated Budget:</label>
+        <input type="text" id="budget" name="budget">
+
+        <label for="terms">Terms and Conditions:</label>
+        <input type="checkbox" id="terms" name="terms" required>
+        <span>I agree to the terms and conditions</span>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 WEDEASE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
